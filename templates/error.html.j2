@@ -1,0 +1,23 @@
+{% extends "base.html.j2" %}
+
+{% block title %}
+    Error {{ code }}
+{% endblock %}
+
+{% block body %}
+{% if code == '404' %}
+    <img src="{{ url_for('static', filename='images/alastor.png') }}">
+{% endif %}
+{% if code == '451' %}
+    <img src="{{ url_for('static', filename='images/eYWn0HMa_400x400.png') }}">
+{% endif %}
+{% if code == '102' %}
+    <img src="{{ url_for('static', filename='images/20220128_123810.jpg') }}">
+{% endif %}
+{% if code == '408' %}
+    <img src="{{ url_for('static', filename='images/20220111_121537.jpg') }}">
+{% endif %}
+{% if code == '450' %}
+    <img src="{{ url_for('static', filename='images/pingu.png') }}">
+{% endif %}
+{% endblock %}

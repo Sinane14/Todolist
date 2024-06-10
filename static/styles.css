@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+    background-image: url("bg_con.jpg") ;
+    margin-right: 70%;
+    margin-bottom: 43%;
+    background-position: 130%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cadre {
+    border: 3px solid rgb(183, 0, 255);
+    border-radius: 20px;
+}
+.container {background: linear-gradient(green, blue);
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+#toptext {
+    text-align: center;
+    color: blue;
+}
+
+/* les couleurs sont a mêttre selon le daltonisme de pierre pck je suis gentil :) */
+#complete {
+    color: green
+}
+
+#incomplete {
+    color: rgb(183, 1, 255)
+}
+
+input:invalid {background-color: black;
+    color: whitesmoke;
+        border: none;
+        outline: 2px solid blue;
+        border-radius: 5px;}
+  
+input:valid {background-color: whitesmoke;
+    color: black;
+        border: none;
+        outline: 2px solid green;
+        border-radius: 5px;}

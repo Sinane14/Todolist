@@ -1,0 +1,12 @@
+Allumer le debug :
+export FLASK_DEBUG=TRUE
+
+Démmarer le serv :
+flask --app hello run
+
+
+
+truk a finir sur la page : 
+- ajouter un système de compte
+- faire en sorte que ca se sauvegarde sur chaque compte
+- finir pour les erreurs
